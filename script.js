@@ -19,10 +19,6 @@
         let s = new Date().getSeconds();
         let am = h >= 12 ? "PM" : "AM";
         
-        // Mettre en 24hr:
-        if(h < 12) {
-            h = h - 12;
-        }
     
         
         // Rajout zéro devant les chiffres :
